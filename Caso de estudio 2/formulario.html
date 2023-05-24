@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <link rel="stylesheet" href="./style.css">
+    <center><h1>Encuesta de satisfacción de los asistentes a un evento</h1></center>
+    <h3>Esta encuesta se hace con la finalidad de saber si el evento fue de su agrado y tambien para que dejen sus comentarios y sus sujerencias para mejorar nuestro servicio</h3>
+    <label for="nombre" id="D">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+    <label for="correo" id="D">Correo electronico</label>
+    <input type="text" id="correr" name="correo"><br><br>
+    <label for="edad" id="D">Edad:</label>
+    <input type="number" id="edad" name="edad" min="10" max="100"><br><br>
+    <label for="numero" id="D">Numero de telefono</label>
+    <input type="numer" id="numero" name="numero"><br><br>
+    <label for="evaluacion" id="D">Evaluación</label>
+    <select name="evaluacion" id="">
+        <option value="ocupacion">Ecxelente</option>
+        <option value="ocupacion">Bueno</option>
+        <option value="ocupacion">Regular</option>
+        <option value="ocupacion">Malo</option>
+    </select><br><br>
+    <label for="text" id="P">¿Que es lo que mas le gusto del evnto?</label><br>
+    <textarea name="textarea" rows="3" cols="40"></textarea><br><br>
+    <label for="text" id="P">¿Que es lo mas le intereso del evento?</label><br>
+    <textarea name="textarea" rows="3" cols="40"></textarea><br><br>
+    <label for="text" id="P">¿El material usado para el evento fue el correcto?</label><br>
+    <input type="text"><br><br>
+    <label for="comentarios" id="P">Escribe tus comentarios y sugerencias</label><br>
+    <textarea name="textarea" rows="5" cols="40"></textarea>
+</body>
+</html>
